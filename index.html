@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Enhanced Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="/portfolio1/portfolio1.js"></script>
+</head>
+
+<body>
+
+     <!-- Header Section -->
+     <header>
+          <nav>
+               <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <!--                 <li><a href="#experience">Work Experience</a></li> -->
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button id="toggleDarkMode">Toggle Dark Mode</button></li>
+               </ul>
+          </nav>
+          <div class="hero">
+               <h1>Welcome to My Portfolio</h1>
+               <p>A showcase of my work and skills</p>
+          </div>
+     </header>
+
+     <!-- Projects Section -->
+     <section id="projects">
+          <h2>Projects</h2>
+          <button class="filter-btn" data-category="all">All</button>
+          <button class="filter-btn" data-category="web">Web Development</button>
+          <button class="filter-btn" data-category="app">App Development</button>
+          <div class="projects-grid">
+               <div class="project-item" data-category="web">
+                    <h3>Project 1: Web Development</h3>
+                    <p>with html css and java script i made portfolio to showcase my skills </p>
+                    <!--                 <a href="#">View Project</a> -->
+               </div>
+               <div class="project-item" data-category="app">
+                    <h3>Project 2: App Development</h3>
+                    <p>I used Apparel Store Website with HTML</p>
+               </div>
+               <div class="project-item" data-category="mini">
+                    <h3>Project 3: android malware detection</h3>
+                    <p>made ppt and presented it in college </p>
+               </div>
+               <div class="project-item" data-category="major">
+                    <h3>Project 4: deep learning drug side effects</h3>
+                    <p>using deep learning we made project to detect drug side effects</p>
+                    <!--                 <a href="#">View Project</a> -->
+               </div>
+               <!-- Add more projects as needed -->
+          </div>
+     </section>
+
+     
+     <!-- Education Section -->
+     <section id="education">
+          <h2>Education</h2>
+          <ul>
+               <li>
+                    <h3>B.Tech</h3>
+                    <p>Aurora's technological and research institute, 2025</p>
+               </li>
+               <li>
+                    <h3>intermediate</h3>
+                    <p>Sri Gayatri Junior college,2021</p>
+               </li>
+               <li>
+                    <h3>Higher school</h3>
+                    <p>Telangana state model school,2019</p>
+               </li>
+          </ul>
+     </section>
+     <section id="languages">
+          <h2>languages</h2>
+          <ul>
+               <li>
+                    english
+               </li>
+               <li>hindi</li>
+               <li>telugu</li>
+               <li>Marathi</li>
+          </ul>
+     </section>
+
+
+
+     <!-- Contact Section -->
+     <section id="contact">
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+               <label for="name">Name:</label>
+               <!--<input type="text" id="name" name="name" required>-->
+               <input type="text" id="name" name="name">
+
+               <label for="email">Email:</label>
+               <input type="text" id="email" name="email">
+
+               <label for="message">Message:</label>
+               <textarea id="message" name="message"></textarea>
+
+               <button type="submit">Send Message</button>
+          </form>
+          <p id="formFeedback" class="hidden">Your message has been sent!</p>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+          <p>&copy; 2024 My Portfolio</p>
+          <div class="social-media">
+               <a
+                    href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bpx7p4XjOS4aEFz4OsZ6WbQ%3D%3D">LinkedIn</a>
+
+               <!--           <a href="#">GitHub</a>
+            <a href="#">Twitter</a> -->
+          </div>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+
+</html>
